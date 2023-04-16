@@ -15,7 +15,7 @@ void swap(int a, int b, T* array){
 }
 
 template<class T>
-printArray(T* array, int len){
+void printArray(T* array, int len){
     for(int i = 0; i < len; i++)
         cout << array[i] << " ";
     cout << endl;
